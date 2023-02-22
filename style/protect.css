@@ -1,0 +1,35 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.banner {
+  background-image: url(../images/pexels-muffin-creatives-2468773.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.nav-item {
+  text-align: center;
+  margin-top: 12%;
+}
+.nav-item h1 {
+  font-size: 50px;
+  font-weight: 900;
+  width: 60%;
+  padding-left: 20%;
+}
+.nav-item p {
+  font-size: 20px;
+  font-weight: 500;
+  width: 45%;
+  padding-left: 30%;
+  padding-bottom: 20px;
+}
+.nav-button {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  background-color: rgb(255, 99, 99);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
