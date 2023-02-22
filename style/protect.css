@@ -32,7 +32,7 @@ body {
 .header-button {
   text-decoration: none;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
   color: white;
   background-color: rgb(255, 99, 99);
   padding: 16px 24px;
@@ -118,4 +118,32 @@ body {
 }
 #plan-b-color-3 {
   background-color: rgb(249, 232, 199);
+}
+
+.donation {
+  display: flex;
+  margin-bottom: 30%;
+}
+.donation-left {
+  width: 35%;
+  margin-left: 16%;
+}
+.donation-left h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: rgb(6, 6, 6);
+}
+.donation-left p {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(126, 124, 124);
+  margin-bottom: 10%;
+}
+
+.donation-right {
+  width: 30%;
+  height: 480px;
+  border-radius: 8px;
+  margin-left: 2%;
+  margin-right: 15%;
 }
