@@ -93,6 +93,9 @@ body {
   margin-left: 20px;
 }
 
+.plan-section {
+  margin-top: 5px;
+}
 .plan {
   align-items: center;
   text-align: center;
@@ -122,7 +125,7 @@ body {
 
 .donation {
   display: flex;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 .donation-left {
   width: 35%;
@@ -163,7 +166,7 @@ body {
 }
 #email-input {
   background-color: rgb(252, 243, 213);
-  margin: 5% 20% 15% 20%;
+  margin: 5% 20% 11% 20%;
   padding: 80px;
   border-radius: 5px;
 }
@@ -188,4 +191,21 @@ body {
   padding: 10px 24px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+.footer-section {
+  text-align: center;
+  color: aliceblue;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.footer-section h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(255, 99, 99);
+}
+.footer-section h5 {
+  color: rgb(160, 189, 243);
 }
