@@ -45,12 +45,12 @@ body {
   margin-top: 10%;
   margin-bottom: 10%;
 }
-.donate-section h1 {
+.donate-head {
   font-size: 40px;
   font-weight: 900;
   color: rgb(6, 6, 6);
 }
-.donate-section p {
+.donate-description {
   font-size: 20px;
   font-weight: 400;
   color: rgb(126, 124, 124);
@@ -91,4 +91,31 @@ body {
   padding: 12px 250px;
   margin-bottom: 60px;
   margin-left: 20px;
+}
+
+.plan {
+  align-items: center;
+  text-align: center;
+}
+.plan-bottum-section {
+  display: flex;
+  margin-left: 12%;
+}
+.plan-bottum {
+  background-color: rgb(235, 235, 235);
+  width: 23%;
+  padding: 50px 28px;
+  margin-right: 2%;
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+.plan-bottum p {
+  font-weight: 400;
+  color: rgb(107, 106, 106);
+}
+#plan-b-color {
+  background-color: rgb(233, 220, 220);
+}
+#plan-b-color-3 {
+  background-color: rgb(249, 232, 199);
 }
